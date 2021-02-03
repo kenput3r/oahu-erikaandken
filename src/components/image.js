@@ -23,6 +23,13 @@ const Image = () => {
           }
         }
       }
+      testImage: file(relativePath: { eq: "balcony.heic" }) {
+        childImageSharp {
+          fluid(maxWidth: 640) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -30,7 +37,7 @@ const Image = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.testImage.childImageSharp.fluid} />
 }
 
 export default Image
