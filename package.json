@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "oahu-erikaandken",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple vacation photo website, powerd by Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kenneth Lyerly <hey@ken.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.26.1",
